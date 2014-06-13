@@ -1,0 +1,12 @@
+#include "stdafx.h"
+#include "defclass.h"
+
+BEGIN_DECLARE_SCRIPT(TestClass1)
+{
+	LUA_FUNC(TestVoid, DEFAULT_PARAMS);
+	LUA_FUNC(TestAllParam, DEFAULT_PARAMS);
+	LUA_STATIC_FUNC(TestStaticVoid, DEFAULT_PARAMS);
+	LUA_DEFAULT_CONSTRUCTOR();
+	LUA_VAR(m_nValue);
+}
+END_DECLARE_SCRIPT()

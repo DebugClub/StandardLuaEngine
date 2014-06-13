@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StandardLuaEngine", "source\sle.vcxproj", "{D45FD4EF-D74E-4063-A2A5-CC291A2033B7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SLE_Test", "SLE_Test\SLE_Test.vcxproj", "{008478C3-97D4-4573-B6E7-D8854568DF63}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D45FD4EF-D74E-4063-A2A5-CC291A2033B7} = {D45FD4EF-D74E-4063-A2A5-CC291A2033B7}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		libDebug|Win32 = libDebug|Win32
+		libRelease|Win32 = libRelease|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D45FD4EF-D74E-4063-A2A5-CC291A2033B7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D45FD4EF-D74E-4063-A2A5-CC291A2033B7}.Debug|Win32.Build.0 = Debug|Win32
+		{D45FD4EF-D74E-4063-A2A5-CC291A2033B7}.libDebug|Win32.ActiveCfg = libDebug|Win32
+		{D45FD4EF-D74E-4063-A2A5-CC291A2033B7}.libDebug|Win32.Build.0 = libDebug|Win32
+		{D45FD4EF-D74E-4063-A2A5-CC291A2033B7}.libRelease|Win32.ActiveCfg = libRelease|Win32
+		{D45FD4EF-D74E-4063-A2A5-CC291A2033B7}.libRelease|Win32.Build.0 = libRelease|Win32
+		{D45FD4EF-D74E-4063-A2A5-CC291A2033B7}.Release|Win32.ActiveCfg = Release|Win32
+		{D45FD4EF-D74E-4063-A2A5-CC291A2033B7}.Release|Win32.Build.0 = Release|Win32
+		{008478C3-97D4-4573-B6E7-D8854568DF63}.Debug|Win32.ActiveCfg = Debug|Win32
+		{008478C3-97D4-4573-B6E7-D8854568DF63}.Debug|Win32.Build.0 = Debug|Win32
+		{008478C3-97D4-4573-B6E7-D8854568DF63}.libDebug|Win32.ActiveCfg = libDebug|Win32
+		{008478C3-97D4-4573-B6E7-D8854568DF63}.libDebug|Win32.Build.0 = libDebug|Win32
+		{008478C3-97D4-4573-B6E7-D8854568DF63}.libRelease|Win32.ActiveCfg = libRelease|Win32
+		{008478C3-97D4-4573-B6E7-D8854568DF63}.libRelease|Win32.Build.0 = libRelease|Win32
+		{008478C3-97D4-4573-B6E7-D8854568DF63}.Release|Win32.ActiveCfg = Release|Win32
+		{008478C3-97D4-4573-B6E7-D8854568DF63}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
